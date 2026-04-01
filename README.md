@@ -44,5 +44,5 @@ Estruturação de visão executiva para acompanhamento de:
 * Automação de fluxos de trabalho para redução de processos manuais.
 
 ---
-**Autora: Yasmin Lopes**
+**Autora: Yasmim Lopes**
 *Engenharia de Dados | Desenvolvedora Python & SQL*
