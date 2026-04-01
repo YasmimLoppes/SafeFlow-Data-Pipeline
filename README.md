@@ -1,57 +1,48 @@
 # SafeFlow-Data-Pipeline: Processamento e Auditoria de Dados
 
-Projeto integrador desenvolvido como estudo prático de Engenharia de Dados, simulando a construção de uma arquitetura moderna para o setor de fintechs e transações financeiras.
+Projeto focado na construção de uma arquitetura de dados moderna para o setor de fintechs e transações financeiras, priorizando a automação de fluxos e a segurança da informação.
 
 ## 🎯 Contexto do Projeto
-Este projeto simula um cenário real de negócio em que é solicitado o processamento seguro de transações financeiras e o monitoramento de auditoria.
+Este projeto simula um cenário real de negócio onde é necessário o processamento seguro de transações financeiras e o monitoramento automatizado de conformidade.
 
 **A solução permite:**
-* Centralizar os dados operacionais de transações.
-* Automatizar o processamento e limpeza de dados.
-* Garantir a conformidade com a LGPD através de anonimização.
-* Apoiar a tomada de decisão estratégica via dashboards.
+* Centralizar dados operacionais de transações.
+* Automatizar o processamento e a limpeza de dados em escala.
+* Garantir conformidade com a LGPD através de técnicas de anonimização.
+* Apoiar a tomada de decisão estratégica via dashboards analíticos.
 
 ## 🚀 Objetivos
-O projeto tem como objetivo desenvolver uma arquitetura capaz de:
+Desenvolver uma arquitetura capaz de:
 * Realizar ingestão automatizada de dados operacionais.
-* Transformar e modelar dados para análise de risco.
-* Garantir a segurança e privacidade dos dados sensíveis.
-* Disponibilizar informações estruturadas em dashboards analíticos.
-
-## 🔗 Conexão e Exploração de Dados
-O pipeline inicia com o tratamento de fontes de dados simuladas para entender a estrutura antes da carga.
-Nesta etapa foram realizadas:
-* Exploração da estrutura dos dados brutos.
-* Identificação de campos sensíveis (IDs de clientes).
-* Entendimento do modelo operacional de transações.
+* Transformar e modelar dados para análise de risco e auditoria.
+* Garantir a segurança e privacidade de dados sensíveis.
+* Disponibilizar métricas estruturadas para o negócio.
 
 ## ⚙️ Pipeline de Dados
-O pipeline foi construído utilizando uma abordagem **ETL (Extract, Transform, Load)**.
-Durante essa etapa foram implementados:
-* **Filtro de Auditoria:** Identificação automática de transações acima de R$ 9.000,00.
-* **Segurança:** Mascaramento de dados via Hashing (SHA-256).
-* **Limpeza:** Tratamento de nulos e padronização de formatos.
-* **Diagnóstico:** Resolução de erros de execução e encoding (UTF-8).
+O pipeline segue a abordagem **ETL (Extract, Transform, Load)** com as seguintes implementações:
+* **Filtro de Auditoria:** Identificação automática de transações críticas (acima de R$ 9.000,00) para revisão imediata.
+* **Segurança:** Mascaramento de dados sensíveis via Hashing (SHA-256), garantindo que a identidade do cliente seja protegida durante todo o processamento.
+* **Limpeza e Padronização:** Tratamento de valores nulos e normalização de formatos de arquivos.
 
 ## 📊 Dashboard Analítico
-Para consumo dos dados, foi estruturada uma visão executiva com métricas como:
-* Receita total e volume de transações.
-* Distribuição de vendas por categoria.
-* Status de auditoria (Normal vs. Revisão Urgente).
+Estruturação de visão executiva para acompanhamento de:
+* Receita total e volume transacionado.
+* Distribuição de vendas por categoria de produto.
+* Status de conformidade e risco (Normal vs. Revisão Urgente).
 
 ## 🛠️ Tecnologias Utilizadas
-* **Python:** Linguagem principal do pipeline.
-* **Pandas:** Manipulação e transformação de dados.
-* **Hashlib:** Criptografia e segurança (LGPD).
-* **Plotly:** Visualização de dados e gráficos.
-* **Git/GitHub:** Controle de versão e documentação.
+* **Python:** Linguagem principal para desenvolvimento do pipeline.
+* **Pandas:** Manipulação, limpeza e transformação de dados.
+* **Hashlib:** Implementação de segurança e criptografia (LGPD).
+* **Plotly:** Geração de visualizações e indicadores de desempenho.
+* **Git/GitHub:** Controle de versão e documentação técnica.
 
-## 💡 Principais Aprendizados
-* Construção de pipelines de dados fim a fim.
-* Implementação de regras de negócio em Python.
-* Modelagem de dados para segurança da informação.
-* Integração entre dados brutos e visões analíticas.
+## 💡 Principais Aprendizados Técnicos
+* Construção de pipelines de dados fim a fim (End-to-End).
+* Implementação de regras de negócio complexas via código.
+* Modelagem de dados focada em segurança da informação.
+* Automação de fluxos de trabalho para redução de processos manuais.
 
 ---
-**Autora: Yasmim Lopes**
-*Estudante de ADS - Unisanta | Foco em Engenharia de Dados*
+**Autora: Yasmin Lopes**
+*Engenharia de Dados | Desenvolvedora Python & SQL*
